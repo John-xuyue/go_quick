@@ -1,0 +1,6 @@
+GOROOT=go安装目录
+GOPATH=包安装目录
+GOPROXY=https://goproxy.cn,direct
+PATH=$GOROOT/bin;&GOPATH/bin
+
+go env查看是否生效
